@@ -1,6 +1,7 @@
 // Imports go first
 import { makePottery } from "./PotteryWheel.js"
 import { firePottery } from "./Kiln.js"
+import { toSellOrNotToSell } from "./PotteryCatalogue.js"
 
 
 // Make 5 pieces of pottery at the wheel
@@ -35,8 +36,11 @@ console.log(firedPlatter)
 
 
 // Determine which ones should be sold, and their price
-
-
+toSellOrNotToSell(firedMug)
+toSellOrNotToSell(firedVas)
+toSellOrNotToSell(firedBowl)
+toSellOrNotToSell(firedPlate)
+toSellOrNotToSell(firedPlatter)
 
 
 
