@@ -34,7 +34,6 @@ console.log(firedPlatter)
 
 
 
-
 // Determine which ones should be sold, and their price
 
 
