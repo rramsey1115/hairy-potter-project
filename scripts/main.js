@@ -1,5 +1,5 @@
 // Imports go first
-
+import { makePottery } from "./potteryWheel.js"
 
 
 // Make 5 pieces of pottery at the wheel
