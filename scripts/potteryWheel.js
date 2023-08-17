@@ -14,11 +14,11 @@ let potId = 1
 */
 
 //invoke with 3 arguments to make a pottery object
-export const makePottery = (shape, weight, height) => {
+export const makePottery = (itemShape, itemWeight, itemHeight) => {
     const pottery = {
-        shape: "Vas",
-        weight: 5,
-        height: 9,
+        shape: itemShape,
+        weight: itemWeight,
+        height: itemHeight,
         id: potId
     } 
     potId++
