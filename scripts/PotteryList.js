@@ -1,4 +1,4 @@
-import { usePottery } from "./PotteryCatalogue.js"
+import { usePottery } from "./PotteryCatalog.js"
 
 
 export const potteryList = (usePottery) => {
