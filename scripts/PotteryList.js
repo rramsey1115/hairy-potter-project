@@ -2,19 +2,22 @@ import { usePottery } from "./PotteryCatalog.js"
 
 
 export const potteryList = (usePottery) => {
-    let html = `<section class="pottery `
+    let html = " "
     for (let item of usePottery) {
-        html += `id="pottery--${item.id}">
-           <h2 class="pottery__shape">${item.shape}</h2>
+        html += `<section class="pottery__card" id="pottery--${item.id}">
+            <div class="pottery__shape">
+                <h3>${item.shape}</h3>
+            </div>
+
             <div class="pottery__properties">
-             This weird thing weighs ${item.weight} pounds and is ${item.height} inches in height
+             <h4>This weird looking thing weighs ${item.weight} pounds and is ${item.height} inches tall.</h4>
             </div>
+
             <div class="pottery__price">
-                Price is a whopping $${item.price}.00!!!
-            </div>
-        </section`
-    }
-         return html
+                <h4>Price is $${item.price}, Biotch!</h4>
+            </div> 
+            </section>`
+    } return html
 }
 
 

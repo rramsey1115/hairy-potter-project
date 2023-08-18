@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 
+
 /*Typography
 --------------------------------------------------------------*/
 body,
@@ -7,14 +8,95 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: "Comfortaa", Arial, sans-serif;
+	background-color: rgb(229, 122, 68);
+	color: whitesmoke;
+	font-family: 'Rubik Mono One', sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
-  letter-spacing: 2px;
+h3,h4,h5,h6 {
+	font-family: 'Comfortaa';
+  	letter-spacing: 4px;
+	margin: 0px;
 }
 
+#prison__mike--img {
+	width:175px;
+	background-color: rgb(229, 122, 68);
+	border: 5px solid rgb(102, 34, 170);
+	border-radius: 200px;
+	box-shadow: 4px 4px 8px black;
+
+}
+
+h1, h2 {
+	margin: 0;
+}
+.header {
+	font-family: 'Rubik Mono One';
+	font-size: 30px;
+	color: rgb(102, 34, 170);
+	letter-spacing: 6px;
+	display: flex block column;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	height:fit-content;
+	padding: 0px;
+	margin: 0px 0px 50px 0px;
+}
+
+.subheading {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	width: auto;
+	max-width: 1200px;
+	margin: auto;
+	padding: 0px 0px 40px 0px;
+}
+
+.pottery__shape {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.pottery__card {
+	display: flex column;
+	border: 2px solid rgb(102, 34, 170);
+	background-color: rgb(229, 122, 68);
+	margin: 10px;
+	align-content: center;
+	padding: 10px;
+}
+
+.potteryList {
+	margin: auto;
+	width: 90%;
+	max-width: 900px;
+}
+
+.pottery__properties, .pottery__price {
+	padding: 5px;
+}
+
+footer {
+	font-size: 20px;
+	font-style: italic;
+	text-align: center;
+	width: auto;
+	margin: 20px 20px 50px 20px;
+}
+
+.sales__area {
+	font-family: 'Rubik Mono One';
+	font-size: 30px;
+	color: rgb(102, 34, 170);
+	letter-spacing: 6px;
+	display: flex block column;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	height:fit-content;
+	padding: 0px;
+	margin: 40px 0px 10px 0px;
+}

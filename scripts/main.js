@@ -7,11 +7,13 @@ import { potteryList } from "./PotteryList.js"
 // Make 5 pieces of pottery at the wheel
 let mug = makePottery("Mug", 4, 4)
 let vas = makePottery("Vas", 12, 15)
-let bowl = makePottery("Bowl", 6, 5)
-let plate = makePottery("Plate", 9, 1)
+let bowl = makePottery("Bowl", 4, 5)
+let plate = makePottery("Plate", 5, 1)
 let platter = makePottery("Platter", 15, 3)
-let planter = makePottery("Planter", 15, 3)
+let planter = makePottery("Planter", 20, 30)
 let sculpture = makePottery("Sculpture", 50, 80)
+let teaKettle = makePottery("Tea Kettle", 11, 8)
+let saucer = makePottery("Saucer", 2, 1)
 
 //test makePottery() outputs
 console.log(mug)
@@ -29,6 +31,8 @@ const firedPlate = firePottery(plate, 1999)
 const firedPlatter = firePottery(platter, 1111)
 const firedPlanter = firePottery(planter, 2000)
 const firedSculpture = firePottery(sculpture, 2199)
+const firedTeaKettle = firePottery(teaKettle, 1850)
+const firedSaucer = firePottery(saucer, 1244)
 
 //check we are getting desired output
 console.log(firedMug)
@@ -45,6 +49,8 @@ toSellOrNotToSell(firedPlate)
 toSellOrNotToSell(firedPlatter)
 toSellOrNotToSell(firedPlanter)
 toSellOrNotToSell(firedSculpture)
+toSellOrNotToSell(firedTeaKettle)
+toSellOrNotToSell(firedSaucer)
 
 // Invoke the component function that renders the HTML list
 const useForList = usePottery()
