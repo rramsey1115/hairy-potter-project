@@ -13,15 +13,12 @@ let platter = makePottery("Platter", 15, 3)
 let planter = makePottery("Planter", 15, 3)
 let sculpture = makePottery("Sculpture", 50, 80)
 
-
 //test makePottery() outputs
 console.log(mug)
 console.log(vas)
 console.log(bowl)
 console.log(plate)
 console.log(platter)
-
-
 
 // Fire each piece of pottery in the kiln
 //shoud add properties to object --->>> fired: true && cracked: true/false
@@ -40,8 +37,6 @@ console.log(firedBowl)
 console.log(firedPlate)
 console.log(firedPlatter)
 
-
-
 // Determine which ones should be sold, and their price
 toSellOrNotToSell(firedMug)
 toSellOrNotToSell(firedVas)
@@ -51,13 +46,7 @@ toSellOrNotToSell(firedPlatter)
 toSellOrNotToSell(firedPlanter)
 toSellOrNotToSell(firedSculpture)
 
-
-
-
 // Invoke the component function that renders the HTML list
 const useForList = usePottery()
 const HTMLString = potteryList(useForList)
-
 document.querySelector(".potteryList").innerHTML = HTMLString
-
-
